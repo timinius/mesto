@@ -5,4 +5,5 @@ export default defineConfig({
   plugins: [react()],
   mestobase: "mesto",
   server: { open: true },
+  base: './',
 });
